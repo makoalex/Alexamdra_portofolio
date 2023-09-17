@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Banner() {
   return (
-    <div>
+    <div className='section'id='home'>
       Banner
     </div>
   )
