@@ -1,9 +1,27 @@
-import React from 'react'
+import React from 'react';
+import { BiHomeAlt, BiUser } from 'react-icons/bi';
+import { BsClipboardData, BsBriefcase, BsChatsquare } from 'react-icons/bs';
+import { Link } from 'react-scroll';
 
 export default function Nav() {
   return (
-    <div>
-      Nav
-    </div>
-  )
+    <nav className="fixed  lg bottom-8 w-full overflow-hidden z-50">
+      <section className="container mx-auto">
+        <div className="w-full bg-black/20 h-[90px] backdrop-blur-2xl rounded-full max-w-[450px] mx-auto px-5 flex justify-between items-center text-2xl text-white/60">
+          <Link className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            <BiHomeAlt />
+          </Link>
+          <Link className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            <BiUser/>
+          </Link>
+          <Link className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            <BsClipboardData />
+          </Link>
+          <Link className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            <BsBriefcase />
+          </Link>
+        </div>
+      </section>
+    </nav>
+  );
 }
