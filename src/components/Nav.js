@@ -7,12 +7,13 @@ export default function Nav() {
   return (
     <nav className="fixed  lg bottom-8 w-full overflow-hidden z-50">
       <section className="container mx-auto">
-        <div className="w-full bg-black/20 h-[90px] backdrop-blur-2xl rounded-full max-w-[450px] mx-auto px-5 flex justify-between items-center text-2xl text-white/60">
+        <div className="w-full bg-black/20 h-[80px] backdrop-blur-2xl rounded-full max-w-[450px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50">
           <Link
             to="home"
             activeClass='active'
             smooth = {true}
             spy= {true}
+            offset={-200}
             className=" cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiHomeAlt />
