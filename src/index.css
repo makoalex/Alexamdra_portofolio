@@ -33,6 +33,12 @@
     rgba(23, 23, 22, 0.3) 100%
   );
 }
+.button-header {
+  background: linear-gradient(90deg, #714822 6.3%, #f5aa27 24.84%);
+  padding: 0 16px;
+  border-radius: 16px;
+  font-size: 14px;
+}
 .active {
   color: #fff;
   padding: 1rem;
@@ -40,6 +46,7 @@
 }
 
 /* test ends here */
+
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
@@ -69,3 +76,4 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+

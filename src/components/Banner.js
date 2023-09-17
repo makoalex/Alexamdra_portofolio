@@ -30,9 +30,9 @@ export default function Banner() {
               />
             </div>
             <p>
-            Howdy! I'm the CSS whisperer, the React rascal, and the Next.js ninja all rolled into one! 🎵 
-            When I'm not making pixels dance with Tailwind, I'm on a JS joyride! My learning curve? Super steep!
-            ut hey, the more, the merrier—I'm the ultimate team-player, like a pirate with a crew
+            Ahoy! I'm the CSS whisperer, the React rascal, and the Next.js ninja all rolled into one package!
+            When I'm not making pixels swirl with Tailwind or CSS, I'm on the JS joyride! My learning curve? Super steep!
+            But hey, the more, the merrier—I'm the ultimate team-player, like a pirate with a its crew! 
             </p>
           </div>
           <div>

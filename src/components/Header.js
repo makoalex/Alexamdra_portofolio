@@ -4,11 +4,11 @@ export default function Header() {
   return (
     <header className=' container py-8'>
       <section className='container mx-auto'>
-        <div className='flex justify-between items-center ml-20'>
+        <div className='flex justify-between items-center '>
           <a href='#'>
             <img src={Name}/>
           </a>
-          <button className='btn btn-sm'>Work with me</button>
+          <button className=' button-header -mr-40 '>Join Forces</button>
         </div>
 
       </section>
