@@ -52,8 +52,8 @@ export default function test() {
                 </a>
             </div>
           </div>
-          <div>
-            <img src={Avatar} className='w-[300px] h-[350px]' />
+          <div className='hidden mx-auto lg:flex flex-1 max-w-[320px] lg:max-w-[420px]'>
+            <img src={Avatar}  />
           </div>
         </div>
       </div>
