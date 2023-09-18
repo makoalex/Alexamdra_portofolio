@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className=' container py-8'>
       <section className='container mx-auto'>
-        <div className='flex justify-between items-center '>
+        <div className='flex justify-between items-center'>
           <a href='#'>
             <img src={Name}/>
           </a>
