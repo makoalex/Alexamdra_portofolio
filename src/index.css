@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
-  background: linear-gradient(90deg, #714822 6.22%, #f5aa27 24.84%, #d8c863);
-  box-shadow: 0px 4.42184px 107.23px rgba(176, 160, 68, 0.51);
-}
+
 
 .btn:hover {
   background: linear-gradient(
@@ -23,10 +20,20 @@
 }
 .button-header {
   background: linear-gradient(90deg, #714822 6.22%, #f5aa27 24.84%, #d8c863);
-  padding: 0 16px;
+  /* padding: 0 16px;
   border-radius: 16px;
-  font-size: 14px;
+  font-size: 14px; */
 }
+.button-header:hover {
+  background: linear-gradient(
+    92.23deg,
+    #ca6702 6.22%,
+    #ffb703 24.84%
+    #f6aa1c 
+
+  );
+}
+
 .active {
   color: #fff;
   padding: 1rem;
@@ -46,10 +53,10 @@
     @apply font-primary font-semibold text-[24px] mb-6 leading-[46px];
   }
   .btn {
-    @apply rounded-full font-primary text-white font-medium;
+    @apply rounded-full font-tertiary text-white font-medium ;
   }
   .btn-sm {
-    @apply h-[36px] px-6 text-sm;
+    @apply h-[38px] px-6 text-base font-medium;
   }
   .btn-lg {
     @apply h-[46px] px-10 text-base;

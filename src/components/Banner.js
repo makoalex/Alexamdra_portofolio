@@ -8,18 +8,18 @@ import { fadeIn } from '../variants';
 export default function test() {
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[75vh] flex items-center "
+      className="min-h-[85vh] lg:min-h-[78vh] flex items-center "
       id="home"
     >
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
-          <div className="flex-1 text-center font-secondary lg:text-left lg:-mt-[35px]">
+          <div className="flex-1 text-center font-secondary lg:text-left ">
             <motion.h1
-              variants={fadeIn('up', 0.2)}
+              variants={fadeIn('up', 0.3)}
               initial="hidden"
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.5 }}
-              className="text-[35px] mt-[10px] font-bold leading-[0.8] lg:text-[55px] "
+              viewport={{ once: false, amount: 0.7 }}
+              className="text-[35px]  font-bold leading-[0.8] lg:text-[55px] "
             >
               ALEXANDRA <span>MACOVEI</span>
             </motion.h1>
@@ -27,8 +27,9 @@ export default function test() {
               variants={fadeIn('up', 0.4)}
               initial="hidden"
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.5 }}
-              className="mb-6 text-[30px] lg:text-[50px] font-secondary uppercase leading-[1]"
+              viewport={{ once: false, amount: 0.7 }}
+        
+              className="mb-6 text-[30px] lg:text-[50px] font-secondary uppercase leading-[1] "
             >
               <span className=" text-white mr-4">I am a</span>
               <TypeAnimation
@@ -37,7 +38,7 @@ export default function test() {
                   2000,
                   'CSS addict',
                   2000,
-                  'Avid Learner',
+                  'Quick Learner',
                 ]}
                 speed={40}
                 className="text-accent"
@@ -49,8 +50,8 @@ export default function test() {
               variants={fadeIn('up', 0.5)}
               initial="hidden"
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.5 }}
-              className="mb-8 text-[15px] mx-w-lg mx-auto lg:mx-0"
+              viewport={{ once: false, amount: 0.7 }}
+              className="mb-8 text-[20px] mx-w-lg mx-auto lg:mx-0"
             >
               Ahoy! I'm the CSS whisperer, the React rascal, and the Next.js
               ninja all rolled into one package! When I'm not making pixels
@@ -63,7 +64,7 @@ export default function test() {
               viewport={{ once: false, amount: 0.5 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="button-header">Get in touch</button>
+              <button className="button-header btn-sm btn">Get in touch</button>
               <a href="#" className="text-gradient btn-link">
                 My Portofolio
               </a>
@@ -86,7 +87,7 @@ export default function test() {
           <motion.div   variants={fadeIn('down', 0.5)}
               initial='hidden'
               whileInView={'show'}
-            ƒ className="hidden mx-auto lg:flex flex-1 max-w-[320px] lg:max-w-[420px]">
+            ƒ className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[420px]">
             <img src={Avatar} />
           </motion.div>
         </div>
