@@ -55,8 +55,11 @@
   .btn {
     @apply rounded-full font-tertiary text-white font-medium ;
   }
+  .btn-xs {
+    @apply h-[30px] px-4 text-sm;
+  }
   .btn-sm {
-    @apply h-[38px] px-6 text-base font-medium;
+    @apply h-[38px] px-6 text-base;
   }
   .btn-lg {
     @apply h-[46px] px-10 text-base;

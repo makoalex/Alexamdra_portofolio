@@ -12,14 +12,14 @@ export default function test() {
       id="home"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
+        <div className="flex flex-col lg:mt-24 lg:flex-row lg:items-center lg:gap-x-12">
           <div className="flex-1 text-center font-secondary lg:text-left ">
             <motion.h1
               variants={fadeIn('up', 0.3)}
               initial="hidden"
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-[35px]  font-bold leading-[0.8] lg:text-[55px] "
+              className="text-[35px]   font-bold leading-[0.8] lg:text-[55px] "
             >
               ALEXANDRA <span>MACOVEI</span>
             </motion.h1>
