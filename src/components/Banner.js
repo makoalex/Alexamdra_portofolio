@@ -38,7 +38,8 @@ export default function test() {
                   2000,
                   'CSS addict',
                   2000,
-                  'Quick Learner',
+                  'Learner',
+                  2000
                 ]}
                 speed={40}
                 className="text-accent"

@@ -7,19 +7,18 @@
 .btn:hover {
   background: linear-gradient(
     90deg,
-    #7a4e25 6.3%,
-    #f5ab2b 24.84%,
-    #eed113 58.03%,
-    rgba(23, 23, 22, 0.3) 100%
+    #e69c1b 24.84%,
+    #e2c50a 
+
   );
 }
 
 .gradient,
 .active {
-  background: linear-gradient(90deg, #714822 6.22%, #f5aa27 24.84%, #d8c863);
+  background: linear-gradient(90deg, #f5aa27 24.84%, #d8c863);
 }
 .button-header {
-  background: linear-gradient(90deg, #714822 6.22%, #f5aa27 24.84%, #d8c863);
+  background: linear-gradient(90deg, #f5aa27 24.84%, #eed113);
   /* padding: 0 16px;
   border-radius: 16px;
   font-size: 14px; */
@@ -27,7 +26,7 @@
 .button-header:hover {
   background: linear-gradient(
     92.23deg,
-    #ca6702 6.22%,
+    /* #ca6702 6.22%, */
     #ffb703 24.84%
     #f6aa1c 
 
@@ -53,13 +52,13 @@
     @apply font-primary font-semibold text-[24px] mb-6 leading-[46px];
   }
   .btn {
-    @apply rounded-full font-tertiary text-white font-medium ;
+    @apply  rounded-lg font-tertiary text-white font-medium ;
   }
   .btn-xs {
     @apply h-[30px] px-4 text-sm;
   }
   .btn-sm {
-    @apply h-[38px] px-6 text-base;
+    @apply h-[38px] px-4 text-sm;
   }
   .btn-lg {
     @apply h-[46px] px-10 text-base;

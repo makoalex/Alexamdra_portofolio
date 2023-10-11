@@ -41,7 +41,7 @@ export default function About() {
               </div>
             </div>
             <div className='flex gap-8 items-center'>
-            <button className='button-header btn-sm btn xs:btn-xs '>Get in touch</button>
+            <button className='button-header btn-sm btn btn-xs '>Get in touch</button>
             <a href='#' className='text-gradient btn-link'>My Portofolio</a>
             </div>
           </div>
