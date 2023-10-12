@@ -8,9 +8,9 @@ export default function About() {
     <section className="section" id="about" ref={ref}>
       <div className="container mx-auto">
         <div className='flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-32 lg:gap-y-0 h-screen'>
-          <div className="flex-1 mr-6 bg-about bg-contain bg-no-repeat h-[400px] mix-blend-lighten bg-top"></div>
+          <div className="flex-1 mr-11 bg-about bg-contain bg-no-repeat h-[400px] mix-blend-lighten bg-top"></div>
           <div className='flex-1'>
-            <h2 className='h2 text-accent mt-24'>About me</h2>
+            <h2 className='h2 text-accent '>About me</h2>
             <h3 className='h3 mb-3'>
               I'm a fullstack Javascript developer, with a passion for
               Front-end.{' '}
@@ -18,7 +18,7 @@ export default function About() {
             <p className='mb-6'>
               Using JavaScript for both front-end and back-end development,
               creating dynamic and cohesive web applications that seamlessly
-              integrate user interfaces, server logic, and databases.
+              integrate user interfaces, server logic, and databases. 
             </p>
             <div className=' flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
@@ -41,7 +41,7 @@ export default function About() {
               </div>
             </div>
             <div className='flex gap-8 items-center'>
-            <button className='button-header btn-sm btn btn-xs '>Get in touch</button>
+            <button className='button-header btn-sm btn  '>Get in touch</button>
             <a href='#' className='text-gradient btn-link'>My Portofolio</a>
             </div>
           </div>
