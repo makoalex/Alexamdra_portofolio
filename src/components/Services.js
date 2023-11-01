@@ -39,8 +39,8 @@ export default function Services() {
                 const { name, description, link } = service;
                 return(
                   <div key={index}>
-                    <div>
-                      <h4>{name}</h4>
+                    <div className=" max-w-[476px]">
+                      <h4 className="text-[24px]">{name}</h4>
                       <p>{description}</p>
                     </div>
                     <div>Links</div>
