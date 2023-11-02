@@ -23,7 +23,7 @@ export default function About() {
             <div className=' flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='font-[40px] font-tertiary text-gradient'>
-                  {inVew? <CountUp start={0} end={14} duration={3} /> :null}
+                  {inVew? <CountUp start={0} end={15} duration={5} /> :null}
                 </div>
                 <div className=' font-secondary text-sm tracking-[2px]'>
                   Git <br />
