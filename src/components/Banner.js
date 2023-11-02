@@ -39,7 +39,7 @@ export default function test() {
                   'CSS addict',
                   2000,
                   'Learner',
-                  2000
+                  2500
                 ]}
                 speed={40}
                 className="text-accent"
@@ -77,10 +77,10 @@ export default function test() {
               viewport={{ once: false, amount: 0.5 }}
               className="flex text-[20px]  gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#">
+              <a href="https://github.com/makoalex" rel="noopener noreferrer" target="_blank">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/alexandra-macovei-a444a410a/" rel="noopener noreferrer" target="_blank">
                 <FaLinkedin />
               </a>
             </motion.div>
