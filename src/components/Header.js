@@ -8,7 +8,7 @@ export default function Header() {
           <a href='#'>
             <img src={Name} className='h-10 w-24 ml-6 '/>
           </a>
-          <button className='button-header  lg:-mr-48 btn-sm btn btn-sm mx-auto '>Join Forces</button>
+          <button className='button-header lg:-mr-48 btn-sm btn btn-sm mx-auto '>Join Forces</button>
         </div>
 
       </section>
