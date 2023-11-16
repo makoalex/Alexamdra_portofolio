@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
+import about from '../assets/alex1.png'
 
 
 export default function About() {
@@ -10,13 +11,15 @@ export default function About() {
   return (
     <section className="section" id="about" ref={ref}>
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-6 lg:flex-row lg:items-center lg:gap-x-32 lg:gap-y-0 h-screen">
+        <div className="flex flex-col h-full gap-y-6 lg:flex-row lg:items-center lg:gap-x-32 lg:gap-y-0">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-           className="flex-1 mr-11 bg-about bg-contain bg-no-repeat h-[400px] mix-blend-lighten bg-top"></motion.div>
+           className="flex-1 justify-center lg:mr-11  bg-cover bg-no-repeat mix-blend-lighten lg:h-[400px]">
+            <img src={about} className=" bg-contain align-middle "/>
+           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}
             initial="hidden"
