@@ -29,7 +29,7 @@ export default function Services() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:h-[550px] lg:bg-bottom bg-no-repeat mix-blend-lighten lg:mb-0"
+            className="flex-1 lg:h-[350px] lg:bg-bottom bg-no-repeat mix-blend-lighten lg:mb-0"
           >
             <h2 className=" h2 text-accent mb-6">What i do</h2>
             <h3 className="h3 max-w-[455px] text-lg leading-loose lg:text-2xl">

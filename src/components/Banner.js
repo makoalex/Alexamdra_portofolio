@@ -8,7 +8,7 @@ import { fadeIn } from '../variants';
 export default function test() {
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[78vh] flex items-center "
+      className="min-h-[85vh] lg:min-h-[78vh] flex items-center  "
       id="home"
     >
       <div className="container mx-auto">
