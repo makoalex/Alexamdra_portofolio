@@ -29,23 +29,23 @@ export default function Services() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:bg-services lg:h-[650px] lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12  lg:mb-0"
+            className="flex-1 lg:h-[550px] lg:bg-bottom bg-no-repeat mix-blend-lighten lg:mb-0"
           >
             <h2 className=" h2 text-accent mb-6">What i do</h2>
-            <h3 className="h3  max-w-[455px] ">
-              {" "}
-              I'm a fullstack Javascript developer, with a passion for
+            <h3 className="h3 max-w-[455px] text-lg leading-loose lg:text-2xl">
+              {" "}I'm a fullstack Javascript developer, with a passion for
               Front-end.
             </h3>
-            <button className="button-header btn-sm btn">See my work</button>
+            <button className="button-header btn-sm btn mb-7">See my work</button>
           </motion.div>
           {/* services */}
           <motion.div
-            variants={fadeIn('left', 0.5)}
+            variants={fadeIn("left", 0.5)}
             initial="hidden"
-            whileInView={'show'}
+            whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-           className="flex-1">
+            className="flex-1"
+          >
             {/* service list */}
             <div>
               {services.map((service, index) => {
@@ -53,14 +53,14 @@ export default function Services() {
                 const { name, description, link } = service;
                 return (
                   <div
-                    className=" border-b   border-accent/20 h-[110px] mb-[38px] flex"
+                    className=" border-b border-accent/20 h-[110px] mb-[40px] flex"
                     key={index}
                   >
                     <div className=" max-w-[476px]">
                       <h4 className=" text-[20px] tracking-wider font-primary font-semibold mb-6">
                         {name}
                       </h4>
-                      <p className=" font-secondary leading-tight">
+                      <p className=" font-secondary leading-tight text-sm lg:text-lg">
                         {description}
                       </p>
                     </div>
