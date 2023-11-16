@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 export default function Nav() {
   return (
-    <nav className="fixed  lg bottom-8 w-full overflow-hidden z-50">
+    <nav className="fixed lg bottom-8 w-full overflow-hidden z-50">
       <section className="container mx-auto">
         <div className="w-full bg-black/20 h-[80px] backdrop-blur-2xl rounded-full max-w-[450px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50">
           <Link
