@@ -13,21 +13,20 @@ export default function test() {
     >
       <div className="container mx-auto">
         <div className="flex flex-col lg:mt-24 lg:flex-row lg:items-center lg:gap-x-12">
-          <div className="flex-1 text-center font-secondary lg:text-left ">
-            <motion.h1
+          <motion.div
               variants={fadeIn('up', 0.3)}
               initial="hidden"
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
+           className="flex-1 text-center font-secondary lg:text-left ">
+            <h1
+             
               className="text-[35px]   font-bold leading-[0.8] lg:text-[55px] "
             >
               ALEXANDRA <span>MACOVEI</span>
-            </motion.h1>
-            <motion.div
-              variants={fadeIn('up', 0.4)}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+            </h1>
+            <div
+              
         
               className="mb-6 text-[30px] lg:text-[50px] font-secondary uppercase leading-[1] "
             >
@@ -46,18 +45,15 @@ export default function test() {
                 wrapper="span"
                 repeat={Infinity}
               />
-            </motion.div>
-            <motion.p
-              variants={fadeIn('up', 0.5)}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+            </div>
+            <p
+          
               className="mb-8 text-[20px] mx-w-lg mx-auto lg:mx-0"
             >
               Ahoy! I'm the CSS whisperer, the React rascal, and the Next.js
               ninja all rolled into one package! When I'm not making pixels
               swirl with Tailwind or CSS, I'm on the JS joyride!
-            </motion.p>
+            </p>
             <motion.div
               variants={fadeIn('up', 0.6)}
               initial="hidden"
@@ -84,7 +80,7 @@ export default function test() {
                 <FaLinkedin />
               </a>
             </motion.div>
-          </div>
+          </motion.div>
           <motion.div   variants={fadeIn('down', 0.5)}
               initial='hidden'
               whileInView={'show'}
