@@ -62,7 +62,7 @@ export default function test() {
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
               <button className="button-header btn-sm btn">Get in touch</button>
-              <a href="#" className="text-gradient btn-link">
+              <a href="https://github.com/makoalex/Alexandra_portofolio" className="text-gradient btn-link">
                 My Portofolio
               </a>
             </motion.div>
