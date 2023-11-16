@@ -1,6 +1,6 @@
 # Concept
 
-My portofolio is my journey and  exploration of various React libraries and my integration of UX perspective using Figma. My goal was to use popular React libraries such as Framer Motion, React Scroll, and React Icons to enhance my understanding of the React environment and build engaging user interfaces.
+My portofolio is my journey and exploration of various React libraries and my integration of UX perspective using Figma. My goal was to use popular React libraries such as Framer Motion, React Scroll, and React Icons to enhance my understanding of the React environment and build engaging user interfaces.
 
 ## React Libraries Explored
 
