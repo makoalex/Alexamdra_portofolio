@@ -52,13 +52,13 @@
     @apply font-primary font-semibold text-[24px] mb-6 leading-[46px];
   }
   .btn {
-    @apply  rounded-lg font-tertiary text-white font-medium ;
+    @apply rounded-full font-tertiary text-white font-medium ;
   }
   .btn-xs {
     @apply h-[30px] px-4 text-sm;
   }
   .btn-sm {
-    @apply h-[38px] px-4 text-sm;
+    @apply h-[38px] px-6 text-sm;
   }
   .btn-lg {
     @apply h-[46px] px-10 text-base;
