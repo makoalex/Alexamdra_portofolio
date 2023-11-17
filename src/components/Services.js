@@ -12,7 +12,7 @@ const services = [
   {
     name: "Developer",
     description:
-      "I like to code things from scratch using front-end technologies like HTML, CSS, and JavaScript, as well as back-end frameworks like Node.js and Express. Skilled in database design using technologies such as MongoDB and SQL and Prisma.",
+      "I like coding using front-end technologies like HTML, CSS, and JavaScript, as well as back-end frameworks like Node.js and Express. Skilled in database design using  MongoDB and SQL.",
   },
 ];
 
@@ -54,7 +54,7 @@ export default function Services() {
                 const { name, description, link } = service;
                 return (
                   <div
-                    className=" border-b border-accent/20 h-[110px] mb-[40px] flex"
+                    className=" border-b border-accent/20 h-[170px] mb-[40px] flex"
                     key={index}
                   >
                     <div className=" max-w-[476px]">
