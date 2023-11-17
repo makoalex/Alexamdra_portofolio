@@ -7,7 +7,7 @@ import Img3 from "../assets/Group 3.png";
 
 export default function Work() {
   return (
-    <div className="section" id="work">
+    <section className="section mb-20" id="work">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           <motion.div
@@ -97,6 +97,6 @@ export default function Work() {
           </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
