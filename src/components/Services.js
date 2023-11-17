@@ -7,14 +7,12 @@ const services = [
   {
     name: "Design",
     description:
-      "I value simple content structure, clean design patterns, and thoughtful interactions.",
-    link: "Learn more",
+      "I use Figma to create intuitive user interfaces and crafting seamless user experiences. I thrive on transforming designs and concepts into dynamic and intuitive web applications",
   },
   {
     name: "Developer",
     description:
-      "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
-    link: "Learn more",
+      "I like to code things from scratch using front-end technologies like HTML, CSS, and JavaScript, as well as back-end frameworks like Node.js and Express. Skilled in database design using technologies such as MongoDB and SQL and Prisma.",
   },
 ];
 
@@ -33,10 +31,13 @@ export default function Services() {
           >
             <h2 className=" h2 text-accent mb-6">What i do</h2>
             <h3 className="h3 max-w-[455px] text-lg leading-loose lg:text-2xl">
-              {" "}I'm a fullstack Javascript developer, with a passion for
-              Front-end.
+              {" "}
+              I have been working with ReactJs, Nextjs, Tailwind-css, and also creating
+              web-designs and flows with Figma.
             </h3>
-            <button className="button-header btn-sm btn mb-7">See my work</button>
+            <button className="button-header btn-sm btn mb-7">
+              See my work
+            </button>
           </motion.div>
           {/* services */}
           <motion.div
@@ -64,20 +65,7 @@ export default function Services() {
                         {description}
                       </p>
                     </div>
-                    <div className="flex flex-col flex-1 items-end">
-                      <a
-                        href="#"
-                        className="w-9 h-9 mb-[42px] fl justify-center"
-                      >
-                        <BsArrowUpRight />
-                      </a>
-                      <a
-                        href="#"
-                        className=" font-tertiary text-sm text-gradient "
-                      >
-                        {link}
-                      </a>
-                    </div>
+                    <div className="flex flex-col flex-1 items-end"></div>
                   </div>
                 );
               })}

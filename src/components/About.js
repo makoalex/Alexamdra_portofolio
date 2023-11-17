@@ -33,9 +33,8 @@ export default function About() {
               Front-end.{" "}
             </h3>
             <p className="mb-6">
-              Using JavaScript for both front-end and back-end development,
-              creating dynamic and cohesive web applications that seamlessly
-              integrate user interfaces, server logic, and databases.
+              Using JavaScript/Typescript for both front-end and back-end development,<br/>
+              I'm dedicated to staying at the forefront of innovation and continuously expanding my knowledge.
             </p>
             <div className=" flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
@@ -58,12 +57,12 @@ export default function About() {
               </div>
             </div>
             <div className="flex gap-8 items-center">
+              <a href="#contact">
               <button className="button-header btn-sm btn  ">
                 Get in touch
               </button>
-              <a href="#" className="text-gradient btn-link">
-                My Portofolio
               </a>
+           
             </div>
           </motion.div>
         </div>
