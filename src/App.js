@@ -17,7 +17,6 @@ function App() {
       <Services />
       <Work />
       <Contact />
-      <div className='h-[950px]'></div>
     </div>
   );
 }
