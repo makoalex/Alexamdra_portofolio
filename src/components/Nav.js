@@ -1,6 +1,7 @@
 import React from 'react';
-import { BiHomeAlt, BiUser } from 'react-icons/bi';
+import { BiHomeAlt, BiUser, BiWrench } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase, BsChatSquareText } from 'react-icons/bs';
+import{HiOutlineWrenchScrewdriver} from 'react-icons/hi'
 import { Link } from 'react-scroll';
 
 export default function Nav() {
@@ -44,6 +45,15 @@ export default function Nav() {
             className=" cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsBriefcase />
+          </Link>
+          <Link
+          to='skills'
+          activeClass='active'
+          smooth = {true}
+          spy= {true}
+          className=" cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          >
+            <BiWrench/>
           </Link>
           <Link
             to="contact"
