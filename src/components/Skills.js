@@ -25,7 +25,7 @@ const skills = [
 export default function Skills() {
   return (
     <div
-      className="section flex flex-1 justify-center items-center w-screen -mb-20 mt-40 text-center"
+      className="section flex flex-1 justify-center items-center w-screen mt-40 text-center"
       id="skills"
     >
       <div className="container mx-auto">
