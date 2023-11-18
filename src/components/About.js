@@ -17,8 +17,8 @@ export default function About() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.4 }}
-           className="flex-1 justify-center lg:mr-11  bg-cover bg-no-repeat mix-blend-lighten lg:h-[400px]">
-            <img src={about} className=" bg-contain align-middle "/>
+           className="flex-1 justify-center lg:mr-11  bg-cover bg-no-repeat mix-blend-lighten lg:h-[400px] items-center">
+            <img src={about} className=" bg-contain align-middle"/>
            </motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}
