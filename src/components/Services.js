@@ -20,7 +20,7 @@ export default function Services() {
   return (
     <section className="section" id="services">
       <div className=" container mx-auto">
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row mb-24">
           {/* text */}
           <motion.div
             variants={fadeIn("right", 0.3)}
@@ -35,9 +35,6 @@ export default function Services() {
               I have been working with ReactJs, Nextjs, Tailwind-css, and also creating
               web-designs and flows with Figma.
             </h3>
-            <button className="button-header btn-sm btn mb-7">
-              See my work
-            </button>
           </motion.div>
           {/* services */}
           <motion.div
