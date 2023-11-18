@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import Pdf from "../public/resume.pdf"
 
 export default function test() {
   
@@ -54,9 +55,9 @@ export default function test() {
               viewport={{ once: false, amount: 0.5 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <a href="#contact">
+              <a href={Pdf} download>
                 <button className="button-header btn-sm btn">
-                  Get in touch
+                  Download my CV
                 </button>
               </a>
             </motion.div>
@@ -87,7 +88,6 @@ export default function test() {
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            ƒ
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[420px]"
           >
             <img src={Avatar} />
