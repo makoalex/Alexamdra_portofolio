@@ -10,7 +10,7 @@ export default function Work() {
   return (
     <section className="section mb-20" id="work">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row gap-x-10">
+        <div className="flex flex-col lg:flex-row gap-10 justify-between">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
@@ -19,7 +19,7 @@ export default function Work() {
             className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
           >
             {/** text */}
-            <div>
+            <div className="gap-y-12">
               <h2 className="h2 leading-tight text-accent">
                 My latest <br />
                 work
@@ -49,6 +49,26 @@ export default function Work() {
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white">Pendel Hub</span>
+              </div>
+            </div>
+            </a>
+            <a href="https://talents.salt.dev/">
+            <div className="group relative overflow-hidden border-2 lg:mt-12 border-white/60 rounded-xl">
+              {/* overlay */}
+              <div className="group-hover:bg-black/30 w-full h-full absolute z-40 transition-all duration-300"></div>
+              {/* img */}
+              <img
+                src={Img4}
+                alt="project image 1"
+                className=" group-hover:scale-150 transition-all group-hover:rotate-12 duration-500"
+              />
+              {/* pretitle */}
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <span className="text-gradient "> Next.js/ UI/UX design/</span>
+              </div>
+              {/* title */}
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <span className="text-3xl text-white">Salt Talent Pool</span>
               </div>
             </div>
             </a>
@@ -94,31 +114,12 @@ export default function Work() {
                 <span className="text-gradient "> Next.js/ UI/UX design/</span>
               </div>
               {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 mb-24">
                 <span className="text-3xl text-white">EcoHarbour</span>
               </div>
             </div>
             </a>
-            <a href="https://talents.salt.dev/">
-            <div className="group relative overflow-hidden border-2 border-white/60 rounded-xl">
-              {/* overlay */}
-              <div className="group-hover:bg-black/30 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* img */}
-              <img
-                src={Img4}
-                alt="project image 1"
-                className=" group-hover:scale-150 transition-all group-hover:rotate-12 duration-500"
-              />
-              {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient "> Next.js/ UI/UX design/</span>
-              </div>
-              {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Salt Talent Pool</span>
-              </div>
-            </div>
-            </a>
+        
           </motion.div>
         </div>
       </div>
