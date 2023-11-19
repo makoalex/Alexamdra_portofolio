@@ -32,7 +32,7 @@ export default function Work() {
               </p>
             </div>
             {/** image */}
-            <a href="https://pendel-hub.vercel.app/">
+            <a href="https://pendel-hub.vercel.app/" target={"_blank"}>
             <div className="group relative lg:top-14 overflow-hidden border-2 lg:max-w-[575px] lg:max-h-[400px] mt-12 border-white/60 rounded-xl">
               {/* overlay */}
               <div className="group-hover:bg-black/30 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -52,7 +52,7 @@ export default function Work() {
               </div>
             </div>
             </a>
-            <a href="https://talents.salt.dev/">
+            <a href="https://talents.salt.dev/" target={"_blank"}>
             <div className="group relative overflow-hidden border-2 lg:mt-12 border-white/60 rounded-xl">
               {/* overlay */}
               <div className="group-hover:bg-black/30 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -80,6 +80,7 @@ export default function Work() {
             viewport={{ once:true }}
             className="flex-1 flex flex-col gap-y-10  "
           >
+            <a href="https://github.com/makoalex/NextJs-reservationApp" target={"_blank"}>
             {/** image */}
             <div className="group relative overflow-hidden border-2 border-white/40 rounded-xl">
               {/* overlay */}
@@ -99,7 +100,8 @@ export default function Work() {
                 <span className="text-3xl text-white">Reserve Eats</span>
               </div>
             </div>
-            <a href="https://github.com/SaltyUltraCrepidarian/EcoHarbor">
+            </a>
+            <a href="https://github.com/SaltyUltraCrepidarian/EcoHarbor" target={"_blank"}>
             <div className="group relative overflow-hidden border-2 border-white/60 rounded-xl">
               {/* overlay */}
               <div className="group-hover:bg-black/30 w-full h-full absolute z-40 transition-all duration-300"></div>
