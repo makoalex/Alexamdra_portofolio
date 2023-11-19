@@ -16,7 +16,7 @@ export default function About() {
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: true }}
            className="flex-1 justify-center lg:mr-11  bg-cover bg-no-repeat mix-blend-lighten lg:h-[400px] items-center">
             <img src={about} className=" bg-contain align-middle"/>
            </motion.div>
@@ -24,7 +24,7 @@ export default function About() {
             variants={fadeIn("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: true}}
             className="flex-1"
           >
             <h2 className="h2 text-accent ">About me</h2>

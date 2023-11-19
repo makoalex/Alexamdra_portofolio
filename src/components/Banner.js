@@ -19,7 +19,7 @@ export default function test() {
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once:true}}
             className="flex-1 text-center font-secondary lg:text-left "
           >
             <h1 className="text-[35px]   font-bold leading-[0.8] lg:text-[55px] ">
@@ -52,7 +52,7 @@ export default function test() {
               variants={fadeIn("up", 0.6)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true}}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
               <a href={Pdf} download>
@@ -65,7 +65,7 @@ export default function test() {
               variants={fadeIn("up", 0.7)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.5 }}
               className="flex text-[20px]  gap-x-6 max-w-max mx-auto lg:mx-0"
             >
               <a
@@ -88,6 +88,7 @@ export default function test() {
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
+            viewport={{ once: true}}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[420px]"
           >
             <img src={Avatar} />

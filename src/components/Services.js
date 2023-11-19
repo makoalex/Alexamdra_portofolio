@@ -26,7 +26,7 @@ export default function Services() {
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true }}
             className="flex-1 lg:h-[350px] lg:bg-bottom bg-no-repeat mix-blend-lighten lg:mb-0"
           >
             <h2 className=" h2 text-accent mb-6">What i do</h2>
@@ -41,7 +41,7 @@ export default function Services() {
             variants={fadeIn("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: true}}
             className="flex-1"
           >
             {/* service list */}
