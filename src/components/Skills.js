@@ -25,12 +25,12 @@ const skills = [
 export default function Skills() {
   return (
     <div
-      className="section flex flex-1 justify-center items-center w-screen mt-40 text-center"
+      className="p-14 flex flex-1 justify-center items-center w-screen mt-40 text-center"
       id="skills"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto my-28">
         <h2 className="h2 leading-tight text-accent p-4 ">My Skills</h2>
-        <ul className="flex justify-center items-center flex-wrap gap-4 text-lg font-primary font-light">
+        <ul className="flex justify-center items-center flex-wrap gap-4 text-sm lg:text-lg font-primary font-light">
           {skills.map((skill, index) => (
             <motion.li
               className=" border rounded-xl flex flex-col px-5 py-3 "

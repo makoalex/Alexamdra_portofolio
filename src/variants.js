@@ -18,6 +18,8 @@ export const fadeIn = (direction, delay) => {
     },
   };
 };
+
+
 export const fadeInAnimationVariants = {
   initial: {
     opacity: 0,
@@ -29,7 +31,7 @@ export const fadeInAnimationVariants = {
     y: 0,
    
     transition: {
-      delay: 0.2* index,
+      delay: 0.1* index,
     },
   }),
 };

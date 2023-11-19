@@ -8,14 +8,14 @@ import Img4 from "../assets/Salt.png";
 
 export default function Work() {
   return (
-    <section className="section mb-20" id="work">
+    <section className="section " id="work">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-10 justify-between">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: true}}
             className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
           >
             {/** text */}
@@ -77,7 +77,7 @@ export default function Work() {
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once:true }}
             className="flex-1 flex flex-col gap-y-10  "
           >
             {/** image */}

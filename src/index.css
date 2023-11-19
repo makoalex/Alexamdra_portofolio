@@ -81,6 +81,6 @@ body {
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#f5aa27] to-[#d8c863]  font-primary hover:from-[#ca6702] hover:to-[#ffb703];
   }
   .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center mb-24;
+    @apply py-8 lg:py-24 lg:h-screen flex items-center mb-28;
   }
 }
