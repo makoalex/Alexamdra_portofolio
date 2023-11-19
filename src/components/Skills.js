@@ -25,10 +25,10 @@ const skills = [
 export default function Skills() {
   return (
     <div
-      className="p-14 flex flex-1 justify-center items-center w-screen mt-40 text-center"
+      className="p-14 flex flex-1 justify-center items-center w-screen section text-center"
       id="skills"
     >
-      <div className="container mx-auto my-28">
+      <div className="container mx-auto my-12">
         <h2 className="h2 leading-tight text-accent p-4 ">My Skills</h2>
         <ul className="flex justify-center items-center flex-wrap gap-4 text-sm lg:text-lg font-primary font-light">
           {skills.map((skill, index) => (

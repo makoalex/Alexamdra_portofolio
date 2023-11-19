@@ -16,7 +16,7 @@ export default function Work() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true}}
-            className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
+            className="flex-1 flex flex-col gap-y-12 lg:mb-0"
           >
             {/** text */}
             <div className="gap-y-12">
